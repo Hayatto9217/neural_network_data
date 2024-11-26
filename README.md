@@ -1,6 +1,10 @@
 # Ymir: The Type-1 Hypervisor.v1.1.1
 Zig言語によっての定理
 
+# 本シリーズにおける主な参考文献は Intel® 64 and IA-32 Architectures Software Developer Manuals を参照しています。
+https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html
+
+
 ### sysctl -a | grep hw.optional
 hw.optional.arm.FEAT_FlagM: 1
 hw.optional.arm.FEAT_FlagM2: 1
