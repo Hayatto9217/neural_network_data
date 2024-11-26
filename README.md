@@ -1,6 +1,11 @@
 # neural_network_data
 OSS期待してバブリッククラウド
 
+## Type-1 Hypervisor
+Type-1 Hypervisor はベアメタルで動作する hypervisor です。 ハードウェアに直接アクセスできる一方、裏を返すと低レベルなリソース管理をする必要があります。 Type-2 と比較すると、より VM に特化したリソース管理ができたり、 Context Switch を挟まない分リソースアクセスの速度が早いという利点があります。 Ymir も Type-1 に分類され、ハードウェア上で直接動作します。 Type-1 に分類される主な hypervisor には以下のものがあります:
+
+
+
 ### sysctl -a | grep hw.optional
 hw.optional.arm.FEAT_FlagM: 1
 hw.optional.arm.FEAT_FlagM2: 1
